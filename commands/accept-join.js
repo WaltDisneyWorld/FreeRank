@@ -88,3 +88,5 @@ exports.run = async (client, message, args) => {
     }
   }});
 }
+
+//COPYRIGHT ROBLOSERVICS LLC.
