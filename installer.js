@@ -9,7 +9,7 @@ var initq = [
         name: 'usage',
         type: 'list',
         message: 'What are you using this tool to do?',
-        choices: ['Setup qbot for the first time.', 'Update the cookie.']
+        choices: ['Setup FreeRank for the first time.', 'Update the cookie.']
     }
 ]
 var updateq = [
@@ -120,7 +120,7 @@ inquirer.prompt(initq).then(answers => {
             fs.writeFile('./config.json', JSON.stringify(configFile), (err) => {
                 if (err) console.log(err);
             });
-            console.log(chalk.green('Your qbot configuration has been successfully updated.'));
+            console.log(chalk.green('Your FreeRank configuration has been successfully updated.'));
         });
     }
 });
