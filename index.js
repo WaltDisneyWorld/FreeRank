@@ -49,7 +49,7 @@ async function onShout(){
     } else {
       shoutchannel.send({embed: {
         color: 2127726,
-          description: '*Shout cleared.*',
+          description: '*New Shout.*',
             author: {
               name: shout.poster.username,
               icon_url: `http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&format=png&username=${shout.poster.username}`
@@ -78,7 +78,7 @@ fs.readdir('./commands/', async (err, files) => {
 });
 
 client.on('ready', async () => {
-  console.log(chalk.yellow(figlet.textSync('qbot', { horizontalLayout: 'full' })));
+  console.log(chalk.yellow(figlet.textSync('FreeRank', { horizontalLayout: 'full' })));
   console.log(chalk.red(`Bot started!\n---\n`
   + `> Users: ${client.users.cache.size}\n`
   + `> Channels: ${client.channels.cache.size}\n`
@@ -109,4 +109,4 @@ client.on('message', async (message) => {
     commandlist[command].file.run(client, message, args);
 });
 
-client.login(config.token);
+client.login(config.token); 
