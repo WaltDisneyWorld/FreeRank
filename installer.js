@@ -112,7 +112,7 @@ inquirer.prompt(initq).then(answers => {
             fs.writeFile('./config.json', JSON.stringify(configFile), (err) => {
                 if (err) console.log(err);
             });
-            console.log(chalk.green('qbot has been successfully setup.'));
+            console.log(chalk.green('FreeRank has been successfully setup.'));
         });
     } else {
         inquirer.prompt(updateq).then(answers => {
