@@ -1,4 +1,4 @@
-# qbot acknowledgements.
+# FreeRank acknowledgements.
 The below acknowledgements are for modules that qbot depends on. Each modules' code is licensed under their own license.
 
 ## noblox.js
@@ -25,6 +25,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 
 ## discord.js
 ```
