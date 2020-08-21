@@ -13,3 +13,4 @@ If at any time while using FreeRank, you need support with it, then feel free to
 FreeRank requires Node 12. If you are using https://glitch.com to host your bot, your server will automatically be updated to Node 12 because of it being specified in the 
 
 Please note we are not responsible for if anything happens to your bot account. It is your responsibility to keep the cookie and token away from anyone you don't trust. FreeRank uses noblox.js to interact with Roblox API with your bot cookie, and discord.js to interact with the Discord API with your bot token. Do not share your config.json file with anyone once filled out.
+ 
